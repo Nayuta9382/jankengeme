@@ -1,0 +1,20 @@
+//TIP コードを<b>実行</b>するには、<shortcut actionId="Run"/> を押すか、
+// ガターで <icon src="AllIcons.Actions.Execute"/> アイコンをクリックします。
+public class Main {
+    public static void main(String[] args) {
+        Player user = new Player("ユーザ");
+
+        Player com = new Player("CPU");
+
+
+        //入力指示表示
+
+        System.out.println("1.グー");
+
+        System.out.println("2.チョキ");
+
+        System.out.println("3.パー");
+
+        System.out.println("あなたの手を選択してください。>");
+    }
+}
